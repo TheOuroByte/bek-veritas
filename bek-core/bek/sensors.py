@@ -23,7 +23,7 @@ class HeuristicSensor(BaseSensor):
             r = "_".join(words[1:-1]).title().replace(" ", "_")
             triples.append(SROTriple(subject=s, relation=r if r else "Is_Related_To", object=o))
         return triples if triples else [SROTriple(subject="Unknown", relation="Claims", object=text)]
-        # Add this inside the HeuristicSensor class
+        
     def extract_sync(self, text: str) -> List[SROTriple]:
         """Synchronous fallback for frameworks like standard LangChain."""
         sentences = re.findall(r'[^.!?]+[.!?]', text.strip())
