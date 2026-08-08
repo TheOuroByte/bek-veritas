@@ -1,0 +1,6 @@
+# Core Mathematical Engine Dependencies
+# VERITAS requires remarkably few external libraries because the thermodynamic 
+# logic is pure Python combinatorics.
+
+pydantic>=2.0.0
+httpx>=0.24.0
