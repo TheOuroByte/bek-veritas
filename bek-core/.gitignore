@@ -128,19 +128,3 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# --- FULCRUM INITIATIVE SPECIFIC ---
-# Ignore the messy prototype web app and old raw scripts
-*.py~
-app.py
-simulation.py
-sdk_test.py
-veritas_field_final.py
-bek_cog.py
-bek_field_seal.py
-bek_temporal.py
-veritas.py
-tapered.py
-veritas_api.py
-templates/
-static/
-bek-core/bek.egg-info/
