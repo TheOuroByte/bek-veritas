@@ -26,3 +26,4 @@ class FieldResult(BaseModel):
     field_score: float
     verdict: str
     pool_results: List[VeritasResult]
+    ipfc: float = Field(default=1.0, description="Inter-pool Fibonacci coherence.")
